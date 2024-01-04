@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package example1;
+
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc DrawWaveform(WaveformData) returns (ack);
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}
+
+message WaveformData {
+  int32 waveData = 1;
+}
+
+message ack {
+  int32 status = 1;
+}
