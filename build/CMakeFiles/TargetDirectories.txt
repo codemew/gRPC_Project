@@ -1,4 +1,0 @@
-/home/somnath/gRPC_Project/build/CMakeFiles/client.dir
-/home/somnath/gRPC_Project/build/CMakeFiles/server.dir
-/home/somnath/gRPC_Project/build/CMakeFiles/edit_cache.dir
-/home/somnath/gRPC_Project/build/CMakeFiles/rebuild_cache.dir
